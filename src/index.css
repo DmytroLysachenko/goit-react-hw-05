@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body,
 div,
@@ -136,4 +140,8 @@ q:before,
 q:after {
   content: "";
   content: none;
+}
+
+.active {
+  background-color: lightblue;
 }
